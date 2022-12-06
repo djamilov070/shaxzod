@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div{
+    width: 400px;
+    height: 500px;
+
+
+    margin-left: 40%;
+    margin-top: 100px;
+    padding: 5px 10px;
+    text-align: center;
+    border: 5px solid rgb(12, 226, 41);
+    background-color: bisque;
+    border-radius: 15%;
+}
+
+
+div img {
+    width: 100%;
+    border-radius: 20%;
+}
+div button {
+    height: 20px;
+    width: 100px;
+    color: aqua;
+    border: none;
+    background-color: rgb(231, 135, 215);
+}
+div:hover {
+    background: #050505;
+    width: 500px;
+    height: 500px;
+    color: blueviolet;
+    border: 5px yellow;
+    margin-left: 20%;
+    transition: 2s ease;
+}
+
+div:active {
+    background-color: aqua;
+    width: 500px;
+    height: 500px;
+    color: blanchedalmond;
+    border: ;
+}
